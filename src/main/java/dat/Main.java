@@ -13,6 +13,7 @@ import org.slf4j.LoggerFactory;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("Starting server on port 7007");
         ApplicationConfig.startServer(7007);
     }
 }

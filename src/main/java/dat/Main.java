@@ -17,5 +17,6 @@ public class Main {
 
         ApplicationConfig.startServer(7007);
         Populate.main(args);
+        //hej
     }
 }

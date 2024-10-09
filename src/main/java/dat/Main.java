@@ -1,6 +1,7 @@
 package dat;
 
 import dat.config.ApplicationConfig;
+import dat.config.Populate;
 import dat.controllers.impl.ExceptionController;
 import dat.exceptions.ApiException;
 import dat.exceptions.Message;
@@ -13,7 +14,8 @@ import org.slf4j.LoggerFactory;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Starting server on port 7007 hehe");
+
         ApplicationConfig.startServer(7007);
+        Populate.main(args);
     }
 }
